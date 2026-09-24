@@ -13,11 +13,11 @@ int main() {
 
     // Шаг 1: Определяем количество пассажиров,
     // купивших билеты второго класса
-    int second_class_passengers = 3 * n / 4;
+    int second_class_passengers =3 * n / 4;
 
     // Шаг 2: Определяем количество пассажиров,
     // купивших билеты первого класса
-    int first_class_passengers = n / 4;
+    int first_class_passengers =n / 4;
 
     // Шаг 3: Стоимость билета первого класса
     // в два раза больше стоимости билета второго класса
@@ -25,11 +25,11 @@ int main() {
 
     // Шаг4: Рассчитываем сумму от продажи билетов
     // второго класса
-    int total_second_class = second_class_passengers * x;
+    int total_second_class =second_class_passengers * x;
 
     // Шаг 5: Рассчитываем сумму от продажи билетов
     // первого класса
-    int total_first_class = first_class_passengers * first_class;
+    int total_first_class =first_class_passengers * first_class;
 
     // Шаг 6: Рассчитываем общую сумму
     total = total_second_class + total_first_class;
